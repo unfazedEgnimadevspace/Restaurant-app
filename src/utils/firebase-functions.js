@@ -20,5 +20,5 @@ export const getAllFoodItem = async () => {
   const items = await getDocs(
     query(collection(firestore, "foodItems"), orderBy("id", "desc"))
   );
-  return items.docs.map((doc) => doc.data);
+  return items.docs.map((doc) => doc.data());
 };

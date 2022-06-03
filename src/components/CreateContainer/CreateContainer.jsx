@@ -33,7 +33,7 @@ const CreateContainer = () => {
         console.log(error);
         setFields(true);
         setMsg('Error while Uploading: Try Again 😢 ');
-        setAlertStatus('danger');
+        setAlertStatus('dangers');
         setTimeout(() =>{
           setFields(false)
           setIsLoading(false)
@@ -114,7 +114,7 @@ const CreateContainer = () => {
     setImageAsset(null);
     setCalories("");
     setPrice("");
-    setCategory("Select Category")
+    
   };
   const fetchData = async () => {
     await getAllFoodItem().then((data) => {

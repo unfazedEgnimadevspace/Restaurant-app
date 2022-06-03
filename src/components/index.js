@@ -3,3 +3,7 @@ export { default as MainContainer } from "./MainContainer/MainContainer.jsx";
 export { default as CreateContainer } from "./CreateContainer/CreateContainer.jsx";
 export { default as HomeContainer } from "./CreateContainer/CreateContainer";
 export { default as RowContainer } from "./RowContainer/Row-Container";
+export { default as MenuContainer } from "./MenuComponent/MenuComponent";
+export { default as CartContainer } from "./CartContainer/CartContainer";
+export { default as CartItems } from "./CartItems/CartItems";
+export { default as StripeCheckOutButton } from "./stripe/stripe";
